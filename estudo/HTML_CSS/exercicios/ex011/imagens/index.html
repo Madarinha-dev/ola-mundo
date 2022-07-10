@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua do seu navegador
+    </p>
+    <picture>
+        <source media="(max-width:750px )" srcset="fhellype-pequena.jpg" type="image/png">
+        <source media="(max-width:1050px )"  srcset="fhellype-media.jpg" type="image/png">
+        <img src="fhellype-grande.jpg" alt="Imagem flexivel">
+    </picture>
+    <hr>
+    <h2>Botando audio #1° Forma</h2>
+    <p>
+        nessa parte estarei tentando bota um audio e tenta montar uma descrição para essa operação <br> Usando: <strong>&lt;audio&gt;</strong> = ela serve para colocar audio na pagina e tem dois parâmetros que são <br> <strong>controls e autoplay</strong> que serve pra mostra os controles e começar, exemplo da estrutura <br> Assim: <strong>&lt;audio src="aqui a musica" controls autoplay&gt;&lt;/audio&gt;</strong>
+    </p>
+    <p>
+        <audio src="../midia/Unlike Pluto.mp3" controls autoplay></audio>
+    </p>
+    <hr>
+</body>
+</html>
