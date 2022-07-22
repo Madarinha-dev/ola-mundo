@@ -9,6 +9,16 @@
         mark{
             background-color: brown;
         }
+        td{
+            background-color: rgb(145, 233, 157);
+        }
+        th{
+            color: rgb(89, 0, 255);
+        }
+        table{
+            background-color: rgb(255, 0, 51);
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -49,5 +59,86 @@
     <h2>Texto Subescrito</h2>
     <p>Usando: <br> <strong>sub</strong> = texto subescrito</p>
     <p>para esse tp de uso: H <sub>2</sub>O</p>
+    <hr>
+    <h2>Criando uma Tabela <strong>(Table)</strong> </h2>
+    <p>
+        <strong>Usando: <br> &lt;table&gt;</strong>
+        essa tag ela sevre para criar uma tabela o problema <br> é que ela é um pouco complexa ate, vai está sua estrutura.
+    </p>
+    <pre>
+        &lt;table&gt;
+            &lt;caption&gt;<strong>Subtitulo</strong>&lt;/caption&gt;
+            &lt;thead&gt; &lt;tr&gt;&lt;th&gt;<strong>Defini os intems</strong>&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;
+            &lt;tfoot&gt;&lt;tr&gt;&lt;th&gt;<strong>Defini os intems</strong>&lt;/th&gt;&lt;/tr&gt;&lt;/tfoot&gt;
+            &lt;tbody&gt;
+                &lt;tr&gt;&lt;td&gt;10&lt;/td&gt;&lt;/tr&gt;
+                &lt;tr&gt;&lt;td&gt;15&lt;/td&gt;&lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    </pre>
+    <p>
+        Essa é a estrutura pra fazer uma tabela
+<pre>
+     <strong>&lt;table&gt;</strong> = Serve para identificar o inicio da tabela <br>
+     <strong>&lt;Caption&gt;</strong> = serve como o tema da tabela <br>
+     <strong>&lt;thead e o tfoot&gt;</strong> = cabeçalho e roda pe da tabela <br>
+     <strong>&lt;tr&gt;</strong> = Ele cria uma linha da tabela <br>
+     <strong>&lt;th&gt;</strong> = Ele defini os intems da tabela <br>
+     <strong>&lt;tbody&gt;</strong> = Aqui vocês ja sb é o corpo da Tabela onde fica as informações / dados <br>
+     <strong>&lt;td&gt;</strong> = Defini a informação / dados da tabela
+ </pre>
+    </p>
+    <hr>
+    <h2>Tabela</h2>
+    <p>Agora montar uma tabela como demosntração de como ela realmente é   
+    </p>
+    <table>
+        <caption><strong>Exemplo de tabela</strong></caption>
+        <thead><tr><th>Nome</th> <th>Idade</th> <th>Altura</th></tr>
+        </thead>
+        <tbody>
+                <tr><td>Fhellype </td> <td>17 anos</td> <td>1,70</td></tr>
+                <tr><td>Sara Gabriela</td> <td>15 anos</td> <td>1,65</td></tr>
+                <tr><td>Mirrela <3 </td> <td>15 anos</td> <td>1,70</td></tr>
+        </tbody>
+    </table>
+    <p>
+        <strong>isso foi um exemplo de tabela, com alterações no css </strong>
+    </p>
+    <hr>
+    <h2>Formulario</h2>
+    <p>
+        um formulario é q nem um caderno de respostas e etc, nele da pra botar <br> campos,botões e etc vou tentar mostrar aqui
+    </p>
+    <form action="teste.txt" method="get" id="teste">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            Confia:<input type="radio" name="confiar" id="sim">Sim
+            <input type="radio" name="confiar" id="nao">Não
+            <br>
+            Sexo: <input type="radio" name="sexo" id="masculino">masculino
+            <input type="radio" name="sexo" id="Feminino">Feminino
+            <br>
+            Email:<input type="text" id="nome"> 
+            <br>
+            Senha: <input type="text" id="Senha">
+            <br>
+            <input type="submit"> ou <input type="reset" value="apagar"> <br>menssagem: <br>
+            <textarea name="menssagem" id="feedback" cols="40" rows="5">
+            </textarea>
+        </fieldset>
+    </form>
+    <hr>
+    <select id="sla">
+        <option value="cachorro quente">Cachorro quente R$ 5,50</option>
+        <option>Pastel R$ 3,00</option>
+        <option>Coxinha R$ 2,50</option>
+        <option>Kibixinha R$ 2,50</option>
+    </select>
+    teste <input type="checkbox" name="nao-sei" id="nao-sei">
+    ops <input type="checkbox" name="nao-sei" id="oi">
+    <p>
+        experimentei todas as tags possiveis que tinha na apostila do <strong>[Grau Profissionalizante.]</strong>
+    </p>
 </body>
-</h
+</html>
