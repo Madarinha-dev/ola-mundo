@@ -1,3 +1,3 @@
-# olá, mundo!
- Meu primeiro repositório Criado durante o cuso de Git e GitHub
- nele vai conter uns projetos ou exercicios que vou aprendendo durante o caminho
+# HTML5 AND CSS3
+ Esse é o meu repositorio de HTML onde contem exercicios e projetos
+ que estou fazendo durante o curso
