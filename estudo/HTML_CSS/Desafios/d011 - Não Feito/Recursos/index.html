@@ -5,9 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio d011</title>
+    <style>
+        div#fora{
+            position: relative;
+        }
+
+        div#dentro{
+            width: 500px;
+            position: absolute;
+            left: 48%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+    </style>
 </head>
 <body>
     <h1>Fazendo o <strong>Desafio D011</strong></h1>
     <p>A missão dessa vez é<br>centralizar uma imagem <br>  dentro da outra.  </p>
+    <div id="fora">
+        <img src="imagens/espaco.jpg" alt="espaço" width="1260px">
+        <div id="dentro">
+            <img src="imagens/astronauta.png" alt="astronauta">
+        </div>
+    </div>
 </body>
 </html>
