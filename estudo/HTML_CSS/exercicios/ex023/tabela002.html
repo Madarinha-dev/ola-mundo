@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            min-width: 390px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody tr:nth-child(2n) {
+            background-color: lightblue;
+            
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        td.num{
+            text-align: right;
+        }
+
+        td {
+            font-weight: bold;
+        }
+
+        .forte {
+            text-align: center;
+        }
+
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas grandes</h1>
+    <!--
+            ANATOMIA PARA TABELAS GRANDES:
+            TABLE
+                CAPtion = legenda
+                THEAD
+                    TR, TD, TH
+                TBOODY
+                    TR, TD, TH
+                TFOOT
+                    TR, TD, TH
+    -->
+    <table>
+        <caption>População das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th class="forte" scope="col">Estado</th>
+                <th class="forte" scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio De Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th class="forte" scope="row">Total de habitantes</th>
+                <td class="num">2342342423</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
