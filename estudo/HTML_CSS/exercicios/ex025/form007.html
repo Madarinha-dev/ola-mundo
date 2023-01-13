@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>iso não chega ao fim deus.</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="iestado">Estado: </label>
+            <select name="estado" id="iestado">
+                <optgroup label="Região tal">
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="PE" selected>Pernambuco</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão: </label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="DS">Desenvolvimento de sistema</option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="menssagem">Menssagem: </label><br>
+            <textarea name="mensagem" id="imensagem" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
