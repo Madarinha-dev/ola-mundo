@@ -1,2 +1,6 @@
 @charset "UTF-8";
 /*para retrato(portrsit)*/
+
+body {
+    background: url(../../imagens/cev-portrait.jpg)
+}
