@@ -3,6 +3,7 @@
     font-style: initial;
     margin: 0px;
     padding: 0px;
+    margin: auto;
 }
 
 body{
@@ -13,13 +14,12 @@ body{
 
 header {
     background-color: #006491;
-    width: 91vw; 
     height: 52px;
+    margin:auto;
 }
 article {
     padding-bottom: 9px;
     width: 90vw;
-    background-color: rgb(47, 0, 255);
 }
 
 
@@ -64,10 +64,13 @@ article#article01 > div > div#bloco02 {
 }
 
 div#primeiro > img {
-    padding-top: 30px;
-    padding-left: 12px;
+    padding-top: 30px; 
+    margin: auto;
+    width: 91vw; 
+}
+
+div#primeiro {
     text-align: center;
-    width: 91vw;
 }
 
 div#segundo > img {
@@ -80,14 +83,12 @@ div#segundo > img {
 div#recadin {
     position:relative;
     box-shadow: 1px 1px 1px lightgray;
-    /*background-color: white;*/
-    background-color: rgb(236, 25, 219);
-    width: 100vw;
+    background-color: white;
+    margin:auto;
     height: 42px;
 }
 
 div#recadin > div#acompanhe {
-    /* display: inline-block; */
     position:absolute;
     padding: 10px;
 }
@@ -99,7 +100,6 @@ div#recadin > div#acompanhe > a {
 }
 
 div#recadin > div#login01 {
-    /* display: inline-block; */
     position: absolute;
     padding: 10px;
     left: 100%;
@@ -158,24 +158,3 @@ header > div#pai > div#bloco03 {
 div#titulo {
     position:absolute;
 }
-
-
-
-/* main > div#superior {  
-    background-color: #006491;
-    width: 100vw; 
-    height: 50px;
-    position: fixed;
-}
-
-div#superior > div#bloco1 a#imagem01 > img {
-    width: 25px;
-    height: 20px;
-    padding: 15px 0px 5px 5px; 
-}
-
-div#superior > div#bloco2 a#imagem02 > img {
-    width: 25px;
-    height: 20px;
-    padding: 15px 0px 5px 5px;
-    /* background-color: red; */
