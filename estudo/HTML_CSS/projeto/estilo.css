@@ -5,15 +5,69 @@
     padding: 0px;
 }
 
+body{
+    background-color: whitesmoke;
+   
+}
+
+
 header {
     background-color: #006491;
     width: 100vw; 
-    height: 50px;
+    height: 52px;
 }
+article {
+    padding-bottom: 9px;
+}
+
+
+
+article#article01 > div {
+    background-color:rgb(255, 255, 255);
+    width: 100vw;
+    height: 50px; 
+}
+
+article#article01 {
+    padding:10px 10px 10px 12px;
+}
+
+article#article01 > div > div#bloco01 > p {
+    padding:5px 5px 2px 5px ;
+    color: #0078ae;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+article#article01 > div > div#bloco01 {
+    height:40px;
+}
+
+article#article01 > div > div#bloco02 > a {
+    text-decoration-line: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: white;
+}
+
+article#article01 > div > div#bloco02 {
+    background-color: #e3193b;
+    text-align: center;
+    height: 30px;
+    width: 95vw;
+    box-shadow: 2px 3px 6px rgb(0 0 0 / 50%);
+}
+
 
 div#recadin {
     position:relative;
-    box-shadow: 0.5px 0.5px 0.5px 0.5px black;
+    box-shadow: 1px 1px 1px lightgray;
+    background-color: white;
+    width: 100vw;
+    height: 42px;
 }
 
 div#recadin > div#acompanhe {
@@ -24,7 +78,7 @@ div#recadin > div#acompanhe {
 
 div#recadin > div#acompanhe > a {
     text-decoration-line: none;
-    color: #008ecf;
+    color: #0078ae;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -39,7 +93,7 @@ div#recadin > div#login01 {
 div#recadin > div#login01 > a {
     text-decoration-line: none;
     padding:10px;
-    color: #008ecf;
+    color: #0078ae;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -59,8 +113,8 @@ header > div#pai > div#bloco01 {
 }
 
 header > div#pai > div#bloco02 > a#imagem02 > img#dois {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     padding: 1px 5px 5px 0px;
 }
 
