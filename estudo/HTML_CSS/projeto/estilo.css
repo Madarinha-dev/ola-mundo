@@ -13,18 +13,20 @@ body{
 
 header {
     background-color: #006491;
-    width: 100vw; 
+    width: 91vw; 
     height: 52px;
 }
 article {
     padding-bottom: 9px;
+    width: 90vw;
+    background-color: rgb(47, 0, 255);
 }
 
 
 
 article#article01 > div {
     background-color:rgb(255, 255, 255);
-    width: 100vw;
+    width: 91vw;
     height: 50px; 
 }
 
@@ -57,15 +59,29 @@ article#article01 > div > div#bloco02 {
     background-color: #e3193b;
     text-align: center;
     height: 30px;
-    width: 95vw;
+    width: 91vw;
     box-shadow: 2px 3px 6px rgb(0 0 0 / 50%);
 }
 
+div#primeiro > img {
+    padding-top: 30px;
+    padding-left: 12px;
+    text-align: center;
+    width: 91vw;
+}
+
+div#segundo > img {
+    padding-top: 20px;
+    padding-left: 12px;
+    text-align: center;
+    width: 91vw;
+}
 
 div#recadin {
     position:relative;
     box-shadow: 1px 1px 1px lightgray;
-    background-color: white;
+    /*background-color: white;*/
+    background-color: rgb(236, 25, 219);
     width: 100vw;
     height: 42px;
 }
