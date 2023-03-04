@@ -66,6 +66,7 @@ article#article01 > div > div#bloco02 {
 
 article#article01 > div > div#bloco02:hover {
     background-color: #b8132e;
+    box-shadow: 0px 0px 0px;
 }
 
 div#primeiro > img {
@@ -165,7 +166,7 @@ div#titulo {
 }
 
 div#botoes > div { 
-    background-color: #e3193b; 
+    background-color: #e3193b;
     text-align: center;
     height: 28px;
     width: 91vw;
@@ -187,11 +188,12 @@ div#botoes {
 
 div#botoes > div:hover {
     background-color: #b8132e;
+    box-shadow: 0px 0px 0px;
 }
 
 div#azul {
     padding-top:14px;
-    padding-bottom: 20px;
+    padding-bottom: 54px;
 }
 div#azul > div { 
     background-color: #0078ae; 
@@ -208,12 +210,16 @@ div#azul > div > p {
     font-size: 32px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
+    padding-bottom:10px;
 }
 
 div#azul > div > div#filho1 > a {
-    /* background-color: red; */
-    color: white;
     text-decoration: none;
+    color:white;
+    text-decoration-line: none;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
 
 div#azul > div { /* DIV pai*/
@@ -224,20 +230,58 @@ div#azul > div > div#filho1 {
     display: inline-block;
    position: absolute;
    left: 100%;
-   margin-left: -70%;
+   margin-left: -85%;
    background-color: #e3193b;
-   width: 90px;
+   width: 130px;
    height: 30px;
    border-radius: 5px;
+   padding-top: 10px;
 }
 
-div#azul > div > div#filho1 > a {
-    padding-top: 6px;
+div#azul > div > div#filho1:hover {
+    background-color: #b8132e;
+    transition-duration: 0.5s;
 }
 
-/* div#azul > div > div#filho2 { 
+
+div#azul > div > div#filho2 { 
     display: inline-block;
    position: absolute;
-   left: 100%;
-   margin-left: -10%;
-}*/
+   right: 100%;
+   margin-right: -88%;
+   background-color: #e3193b;
+   width: 150px;
+   height: 30px;
+   border-radius: 5px;
+   padding-top: 10px;
+   padding-left: 5px;
+   padding-right: 5px;
+}
+
+div#azul > div > div#filho2:hover {
+    background-color: #b8132e;
+    transition-duration: 0.5s;
+}
+
+div#azul > div > div#filho2 > a {
+    text-decoration: none;
+    color:white;
+    text-decoration-line: none;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+div#azul > div > p#unico {
+    display: inline-block;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right:15px;
+}
+
+footer {
+    background-color: #53565a3d;
+    height:100px;
+    padding-top:10px; 
+    padding-left: 10px;
+}
