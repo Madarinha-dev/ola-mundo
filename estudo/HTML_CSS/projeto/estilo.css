@@ -167,7 +167,7 @@ div#titulo {
 div#botoes > div { 
     background-color: #e3193b; 
     text-align: center;
-    height: 30px;
+    height: 28px;
     width: 91vw;
     box-shadow: 2px 3px 6px rgb(0 0 0 / 50%);
     padding-top: 10px;
@@ -188,3 +188,56 @@ div#botoes {
 div#botoes > div:hover {
     background-color: #b8132e;
 }
+
+div#azul {
+    padding-top:14px;
+    padding-bottom: 20px;
+}
+div#azul > div { 
+    background-color: #0078ae; 
+    text-align: center;
+    height: 100px;
+    width: 91vw;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+div#azul > div > p {
+    color:white;
+    /* text-decoration-line: none; */
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+div#azul > div > div#filho1 > a {
+    /* background-color: red; */
+    color: white;
+    text-decoration: none;
+}
+
+div#azul > div { /* DIV pai*/
+    position: relative;
+}
+
+div#azul > div > div#filho1 {
+    display: inline-block;
+   position: absolute;
+   left: 100%;
+   margin-left: -70%;
+   background-color: #e3193b;
+   width: 90px;
+   height: 30px;
+   border-radius: 5px;
+}
+
+div#azul > div > div#filho1 > a {
+    padding-top: 6px;
+}
+
+/* div#azul > div > div#filho2 { 
+    display: inline-block;
+   position: absolute;
+   left: 100%;
+   margin-left: -10%;
+}*/
