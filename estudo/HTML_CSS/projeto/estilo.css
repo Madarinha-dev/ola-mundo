@@ -8,19 +8,20 @@
 
 body{
     background-color: whitesmoke;
-   
 }
 
 
 header {
     background-color: #006491;
     height: 52px;
-    margin:auto;
+    /* margin:auto; */
+    /* width: 99vw; */
 }
 
 article {
     padding-bottom: 9px;
-    width: 90vw;
+    /* width: 90vw; */
+    /* background-color:red; */
 }
 
 
@@ -28,7 +29,7 @@ article {
 article#article01 > div {
     background-color:rgb(255, 255, 255);
     width: 91vw;
-    height: 50px; 
+    height: 50px;
 }
 
 article#article01 {
@@ -109,7 +110,8 @@ div#recadin > div#login01 {
     position: absolute;
     padding: 10px;
     left: 100%;
-    margin-left: -14.9%;
+    margin-left: -20%;
+    /* background-color: red; */
 }
 
 div#recadin > div#login01 > a {
@@ -206,7 +208,6 @@ div#azul > div {
 
 div#azul > div > p {
     color:white;
-    /* text-decoration-line: none; */
     font-size: 32px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
